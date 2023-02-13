@@ -1,0 +1,20 @@
+.stuck {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    width: 25%;
+    overflow-y: scroll;
+  }
+  .stuck::-webkit-scrollbar {
+    display: none;
+  }
+  .stuck {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .hide-item{
+    display: none;
+  }
+  .show-item{
+    display: block;
+  }
